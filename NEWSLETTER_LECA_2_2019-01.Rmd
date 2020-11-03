@@ -1,0 +1,122 @@
+---
+output:
+  html_document:
+    number_sections: no
+    toc: no
+  # pdf_document:
+  #   toc: no
+  #   fig_caption: true
+---
+
+<br/><br/>
+
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+```
+
+<header>Newsletter Pastis - Janvier 2019 <img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
+
+<div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
+<br/>
+
+#### Prochains évènements
+
+<div style="color:#980043;">
+- ***5 février 2019 - 9h - 12h* : formation R - SIG (Julien)**
+- ***13 février 2019 - 9h - 12h* : formation UNIX (Fred)**
+- ***14 février 2019 - 9h - 12h* : formation CIMENT (Maya, et Bruno si disponible)**
+
+**au LECA en salle de réunion au 3ème étage**
+</div>
+<br/><br/>
+
+<div style="text-align:center;">
+**[Merci de vous inscrire ICI !!](https://doodle.com/poll/f8ugk5w2ithcfb77)**
+</div>
+<br/><br/>
+
+Janvier/février étant la période d'arrivée des étudiants en stage de M2, quelques formations sont proposées la première quinzaine de février, **ouvertes à tous**, stagiaires et membres du laboratoire, souhaitant y participer.
+
+Chaque personne est invitée à venir avec un **ordinateur portable**.
+
+**La plupart des présentations / support utilisés sont déjà disponibles sur [`RLeca`](http://rleca.pbworks.com/).**
+
+<br/>
+
+#### Pré-requis
+
+**Pour la formation R - SIG**, il est recommandé d'avoir [`R`](https://www.r-project.org/) (et [`RStudio`](https://www.rstudio.com/products/rstudio/download/)) d'installé, ainsi que les librairies `raster` et `mapview`.
+
+**Pour la formation CIMENT** :
+
+  - les utilisateurs Windows peuvent installer [`WinSCP`](https://winscp.net/eng/download.php) et [`PuTTY`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
+   - créer un compte sur [`PERSEUS`](https://perseus.ujf-grenoble.fr), se connecter, aller dans `My projects` et rejoindre le projet *LECA Cluster Usage Training*
+
+
+<br/><br/>
+
+#### Formation R - SIG
+
+Apprendre à utiliser et manipuler les objects raster sous R :
+
+- ouvrir un fichier raster
+- accéder à ses propriétés
+- manipulations de bases (reprojeter, aggréger, changer la résolution, découper, ...)
+- outils de visualisation
+- classes stack, brick
+- interactions entre fichiers shapefile et raster
+- statistiques zonales, extraction de valeurs
+- etc
+
+<br/>
+
+#### Formation UNIX
+
+Apprendre les lignes de commandes de base pour utiliser un terminal / shell :
+
+- se déplacer et parcourir une arborescence de fichier
+- copier, supprimer, déplacer des fichiers
+- ouvrir une connexion SSH
+- etc
+
+<br/>
+
+#### Formation CIMENT
+
+Apprendre à utiliser les ressources de calcul de [`Gricad`](https://gricad.univ-grenoble-alpes.fr/) :
+
+- principes des jobs (parallèles) sur une machine de calcul
+- se connecter aux clusters (terminal, [`WinScp`](https://winscp.net/), [`PuTTY`](https://www.putty.org/))
+- configurer sa session (installation de modules, packages R)
+- lancer des jobs OAR (actif, passif)
+- etc
+
+
+<br/><br/>
+
+<footer>*Rédigé par Maya Guéguen, le 17 janvier 2019*</footer>
+
+<br/><br/>

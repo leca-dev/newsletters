@@ -1,0 +1,135 @@
+---
+output:
+  html_document:
+    number_sections: no
+    toc: no
+  # pdf_document:
+  #   toc: no
+  #   fig_caption: true
+---
+
+<br/><br/>
+
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+```
+
+<header>Newsletter Pastis - Novembre 2019 <img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
+
+<div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
+<br/>
+
+#### Derniers évènements
+
+- *5 novembre 2019* : journée utilisateurs CIMENT ([`Gricad`](https://gricad.univ-grenoble-alpes.fr/))  
+Présentations disponibles ici : [gricad-user](https://userday2019.sciencesconf.org/resource/page/id/1)
+
+
+<br/><br/>
+
+Après cette journée organisée par `Gricad`, voici un aperçu de quelques points d'intérêts pour le laboratoire :
+
+<br/>
+
+#### Machines Ciment
+
+La famille Ciment s'agrandit et se dote de **nouvelles machines** :
+
+- **`DAHU`** : 25 nouveaux noeuds !  ce qui amène à un total de 73 noeuds  
+42 noeuds sont réservés aux jobs nécessitant des ressources > 31 coeurs
+- **`bettik`** : passage de 500 To l'année dernière à 1,3 Po ! (avec une participation du LECA)
+- **`MANTIS2 (Irods)`** : remise à neuf de la grille, ajout de 400 To, et d'une base de données propre
+
+
+
+`Froggy` est issu du projet "Equipements d'excellence" 2010 des Investissements d'avenir [Equip@meso](http://www.genci.fr/fr/content/pr%C3%A9sentation-d%E2%80%99equipmeso) qui arrive à son terme en décembre 2019.  
+La maintenance de `Froggy` qui devait s'achever en mai 2019 a été reconduite pour un an jusqu'à mai 2020.
+
+<br/><br/>
+
+#### Communication
+
+Les sites web de `Gricad` font peau neuve !
+
+- un nouveau site web pour présenter l'unité de service (en ligne prochainement)
+- <div style=";color:#980043;">**un nouveau site web pour la [DOCUMENTATION](https://gricad-doc.univ-grenoble-alpes.fr) !!**</div>
+
+Tous les retours, positifs ou constructifs, seront appréciés par leurs équipes !
+
+<br/><br/>
+
+
+
+## [ComUt Gricad (Communauté des Utilisateurs)](https://userday2019.sciencesconf.org/data/pages/Prez_Comut_2020.pdf) 
+
+La **Com**munauté des **Ut**ilisateurs de Gricad est constituée de 49 représentants dispatchés dans les différents laboratoires utilisateurs du campus.  
+8 de ces représentants constituent un bureau restreint.  
+La liste de ces personnes peut être trouvée [ici](https://gricad.univ-grenoble-alpes.fr/a-propos).
+
+3 groupes de travail ont été formés :
+
+- pour faire le lien entre Tier-1 (ressources de calcul au niveau national) et Tier-2 (ressources de calcul au niveau régional = ciment)
+- pour fournir de l'**aide au montage de projets et à l'achats de nouvelles machines** (dossiers ANR...)
+- pour **recenser l'offre et la demande en formation calcul et données** (création à venir d'une newsletter)
+
+Plus de détails peuvent être trouvés [ici](https://userday2019.sciencesconf.org/data/pages/Prez_Comut_2020.pdf) ou en envoyant un mail à [gricad-comut-contact@univ-grenoble-alpes.fr](gricad-comut-contact@univ-grenoble-alpes.fr).
+
+
+<br/><br/>
+
+
+## [Outils & astuces Gricad]()
+
+
+#### Outils
+
+- [NOVA](https://gricad.univ-grenoble-alpes.fr/thematiques/cloud-openstack-nova) : machine(s) virtuelle(s) temporaires(s) à la demande, via réseau UGA ou VPN)
+- [JupyterHub](https://jupyterhub.u-ga.fr) : pour la diffusion de codes ou de méthodes, le travail collaboratif, etc
+- [Cloud](https://cloud.univ-grenoble-alpes.fr/) : un cloud de l'UGA accessible avec identifiants AGALNA, avec 50 Go de stockage, et un outil collaboratif
+
+<br/>
+
+#### Astuces
+
++ Le service de stockage [SUMMER](https://gricad.univ-grenoble-alpes.fr/thematiques/stockage-summer) a été couplé avec `Luke` et `Dahu` !  
+Ainsi, il est possible de copier des données stockées sur SUMMER directement sur `Luke` ou `Dahu` pour les utiliser.  
+Cela nécessite de demander la synchronisation entre ses ID de Perseus (ciment) et de `Summer`.
+
++ Commande `df -h` : visualiser ces montages sur `Luke` ou `Dahu`, ainsi que l'espace de stockage
++ Dossier `/home/.snapshot/` : copie pour tous les utilisateurs des 5 derniers jours, **pour retrouver des données perdues dans la semaine**
++ Dossier `/home/0-USAGE/` : fichiers contenant l'utilisation du disque, et le nombre de fichiers par utilisateur et par groupe dans les derniers jours, **pour évaluer la place occupée par ses données** sur le `/home`
+
+**RAPPEL :**
+
+- **`/home` n'est pas un espace de stockage**, et ne doit pas contenir vos lourds fichiers de données (< 50 Go)  
+- **`/bettik` n'est pas un espace de stockage** mais un scratch, donc soumis à la perte potentielle de données
+
+<br/><br/>
+
+
+<footer>*Rédigé par Maya Guéguen, le 6 novembre 2019*</footer>
+
+<br/><br/>

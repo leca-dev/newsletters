@@ -1,0 +1,175 @@
+---
+output:
+  html_document:
+    number_sections: no
+    toc: no
+  # pdf_document:
+  #   toc: no
+  #   fig_caption: true
+---
+
+<br/><br/>
+
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+```
+
+<header>Newsletter Pastis - Juillet 2020 <img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
+
+<div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
+<br/>
+
+#### Mise en lumière :
+
+- **[package R `patchwork`](https://patchwork.data-imaginist.com/articles/guides/assembly.html)** : pour combiner plusieurs ggplot
+- **[appli `haiku` géographique](https://satellitestud.io/osm-haiku/app/?lg=fr#15/45.5454/5.8927)** : pour créer automatiquement des haiku en fonction d'une localisation en cliquant sur la carte *\#beauetinutile*
+<br/><br/>
+
+
+
+
+## [Informations pratiques]()
+
+<br/>
+
+#### Licences ArcGIS
+
+Les **licences 2020 - 2021** dont nous bénéficions via l'OSUG pour l'utilisation du logiciel de cartographie **ArcGIS** sont désormais disponibles.  
+*Si vous voulez en bénéficier, il suffit d'en faire la demande à Julien / PASTIS.*
+
+<br/>
+
+
+#### Leca Script Directory
+
+[LSD](https://gricad-gitlab.univ-grenoble-alpes.fr/leca/pastis/lsd) contient  :
+
+- non seulement un répertoire de **scripts** partagés et documentés par des utilisateurs LECA,
+- mais également un répertoire de **documentation** contenant :
+    - des liens utiles vers de la documentation globale ([RLeca](http://rleca.pbworks.com/), logiciel R, code C / C++ / Python, GRICAD...)
+    - ainsi que des tutoriels (utilisation cluster, best coding practices, biomod2...)
+
+*N'hésitez pas à aller y jeter un oeil ou à nous faire des retours !*
+
+<br/>
+
+
+#### Connexion aux bases de données (ANDROSACE, ORCHAMP, ...)
+
+
+1. Installer le VPN de la fac et faire une demande d'IP fixe  
+ici: http://nomadisme.grenet.fr/installVPN.htm  
+et ici pour le ticket: https://help.univ-grenoble-alpes.fr/front/helpdesk.public.php
+
+2. Créer un certificat de sécurité en suivant ce wiki:  
+https://wiki.osug.fr/!osug-dc/doku.php?id=catalogue-de-services:postgresql:configuration_du_client
+
+3. Contacter [Raphaël Jacquot](raphael.jacquot@univ-grenoble-alpes.fr/) ou [Rémi Cailletaud](remi.cailletaud@univ-grenoble-alpes.fr/) et leur transmettre votre requête avec les éléments obtenus aux points 1 et 2
+
+
+<br/><br/>
+
+## [Compte-rendu COMUT GRICAD]()
+
+*2 juillet 2020*
+
+<br/>
+
+**Arrivée d'une nouvelle interface pour [PERSEUS](https://perseus.ujf-grenoble.fr/) :**
+
+- plus ergonomique
+- plus pratique et mieux adaptée pour les responsable de projets et le suivi dans le temps
+- passage aux identifiants AGALAN pour une uniformisation des services au niveau de l'université  
+(migration automatique des anciens noms de compte (par ex. `mayagueguen`) aux identifiants AGALAN (par ex. `gueguema`) prévue cet été)
+
+<br/>
+
+**Mise en place d'un catalogue d'applications pour la grille de calcul :**
+
+- recensement des logiciels communautaires scientifiques largement utilisés
+- création d'un package d'installation
+- réalisation d'une documentation
+
+*N'hésitez pas à nous faire remonter des packages ou logiciels communément utilisés dans votre domaine !*
+
+<br/>
+
+**A venir, `silenus` :**
+
+- nouvel espace de stockage, similaire à `bettik`
+- d'une capacité d'environ 4 x 15 To
+- mais qui correspondra plus à un *vrai scratch*  
+c'est à dire où les données ne resteront que le temps des jobs, et devront ensuite être déplacées
+
+<br/><br/>
+
+
+## [Documentation - Archives]()
+
+
+- [RLeca](http://rleca.pbworks.com/) :
+
+      - scripts R
+      - tutoriels ggplot2, biomod2...
+      - documentation pour modèles mixtes, analyses multivariées, SIG...
+      - tutoriels UNIX, OBITOOLS, CIMENT, LaTeX
+      
+- [LSD](https://gricad-gitlab.univ-grenoble-alpes.fr/leca/pastis/lsd) : LECA Script Directory (identifiants AGALAN)
+
+      - script R, python... pour extraction et analyse de données, traitement de séquences ADN, etc
+      - liens vers de la documentation en ligne (R, SIG, best coding practices...)
+      - tutoriels
+      
+- [LECA Androsace](https://androsace.osug.fr/) : BDD traits fonctionnels des plantes alpines
+- [LECA Geonetwork](http://leca-bdgis.u-ga.fr/geonetwork/srv/fre/catalog.search#/home) : portail de métadonnées
+- [LECA ORCHAMP](https://orchamp.osug.fr/) : Observatoire spatio-temporel de la biodiversité et du fonctionnement des socio-écosystèmes de montagne
+
+- [OBITools3](https://git.metabarcoding.org/obitools/obitools3) : package for the management of analyses and data in DNA metabarcoding
+
+- [Documentation utilisateur GriCAD](https://gricad-doc.univ-grenoble-alpes.fr/) : pour les différents services fournis par l'UMS :
+
+      - GitLAB : forge logicielle
+      - NOVA : machines virtuelles OpenStack
+      - CIMENT : calcul intensif
+      - Jupyter notebook
+
+<br/>
+
+#### Archives newsletters
+
++ [6 - Février 2020](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_6_2020-02.html) : annonces des formations R-ggplot2, CIMENT et BDD relationnelles
++ [5 - Novembre 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_5_2019-11.html) : CR journée utilisateurs Gricad (nouvelles machines, ComUt, outils & astuces)
++ [4 - Avril 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_4_2019-04.html) : LECA Script Directory (LSD), supercalculateur GENCI
++ [3 - Février 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_3_2019-02.html) : supports pour les formations R-SIG, UNIX et CIMENT
++ [2 - Janvier 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_2_2019-01.html) : annonces des formations R-SIG, UNIX et CIMENT
++ [1 - Décembre 2018](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_1_2018-12.html) : Gricad-Gitlab, JupyterHub UGA
+
+<br/><br/>
+
+
+<footer>*Rédigé par Maya Guéguen, le 17 juillet 2020*</footer>
+
+<br/><br/>

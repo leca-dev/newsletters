@@ -1,0 +1,83 @@
+---
+output:
+  html_document:
+    number_sections: no
+    toc: no
+  # pdf_document:
+  #   toc: no
+  #   fig_caption: true
+---
+
+<br/><br/>
+
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+```
+
+<header>Newsletter Pastis - Février 2019 <img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
+
+<div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
+<br/>
+
+
+<div style="font-size:20px;color:#980043;text-align:center;">
+**Suite aux formations R - SIG, UNIX et CIMENT : **
+</div>
+<br/><br/>
+
+Les supports utilisés sont **disponibles en ligne et accessibles à tous**, que vous ayez suivi les formations ou non.
+
+Un **questionnaire** très court de *satisfaction* a été mis réalisé pour chacune de ces trois formations.  
+**Merci** aux participants de prendre 3 minutes pour le remplir pour avoir vos retours !
+
+
+<br/>
+
+#### Supports
+
+- Pour la formation **R - SIG** : disponibles sur [RLeca](http://rleca.pbworks.com), dans l'onglet `R GIS` : [<img src="images/logo-download.jpeg" alt="logo" width="100px"/>](http://rleca.pbworks.com/w/page/26998852/R%20GIS)
+
+- Pour la formation **UNIX** : disponibles sur le [gricad-gitlab](https://gricad-gitlab.univ-grenoble-alpes.fr/) de Fred : [<img src="images/logo-download.jpeg" alt="logo" width="100px"/>](https://gricad-gitlab.univ-grenoble-alpes.fr/boyerfr/unix-2019-02-13)
+
+- Pour la formation **CIMENT** : disponibles sur [RLeca](http://rleca.pbworks.com), dans l'onglet `CIMENT tutorials` : [<img src="images/logo-download.jpeg" alt="logo" width="100px"/>](http://rleca.pbworks.com/w/page/91494804/CIMENT%20tutorials)
+
+
+<br/><br/>
+
+#### Questionnaires
+
+- Pour la formation **R - SIG** : veuillez cliquer [ici](https://framaforms.org/retour-sur-les-formations-lecapastis-fevrier-2019-rsig-1550239294).
+
+- Pour la formation **UNIX** : veuillez cliquer [ici](https://framaforms.org/retour-sur-les-formations-lecapastis-fevrier-2019-unix-1550238428).
+
+- Pour la formation **CIMENT** : veuillez cliquer [ici](https://framaforms.org/retour-sur-les-formations-lecapastis-fevrier-2019-ciment-1550239319).
+
+
+<br/><br/>
+
+<footer>*Rédigé par Maya Guéguen, le 18 février 2019*</footer>
+
+<br/><br/>

@@ -1,0 +1,155 @@
+---
+output:
+  html_document:
+    number_sections: no
+    toc: no
+  # pdf_document:
+  #   toc: no
+  #   fig_caption: true
+---
+
+<br/><br/>
+
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+```
+
+<header>Newsletter Pastis - Février 2020 <img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
+
+<div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
+<br/>
+
+#### Prochains évènements :
+
+<div style="color:#980043;">
+- ***21 février 2020 - 10h* : formation R - ggplot2 (Maya)**
+- ***28 février 2020 - 15h* : formation CIMENT - débutant (Maya)**
+- ***20 mars 2020 - 15h* : introduction aux Bases de Données Relationnelles (Julien)**
+
+**au LECA en salle de réunion au 3ème étage**
+</div>
+<br/><br/>
+
+Février étant la période d'arrivée des étudiants en stage de M2, quelques formations sont proposées fin février/début mars, **ouvertes à tous**, stagiaires et membres du laboratoire, souhaitant y participer.
+
+Chaque personne est invitée à venir avec un **ordinateur portable** pour les formations *ggplot2* et *CIMENT*.
+
+**Une partie des présentations / support utilisés sont déjà disponibles sur [`RLeca`](http://rleca.pbworks.com/).**
+
+<br/>
+
+#### Pré-requis
+
+**Pour la formation R - ggplot2**, il est recommandé d'avoir [`R`](https://www.r-project.org/) (et [`RStudio`](https://www.rstudio.com/products/rstudio/download/)) d'installé,  
+ainsi que les librairies `reshape2`, `foreach`, `ggplot2`, `ggthemes`.
+
+**Pour la formation CIMENT** :
+
+  - les utilisateurs Windows peuvent installer [`WinSCP`](https://winscp.net/eng/download.php) et [`PuTTY`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
+   - créer un compte sur [`PERSEUS`](https://perseus.ujf-grenoble.fr), se connecter, aller dans `My projects` et rejoindre le projet *LECA Cluster Usage Training*  
+   (actif du 15 février au 15 mars)
+
+
+<br/><br/>
+
+
+#### Formation R - ggplot2
+
+Apprendre à faire des graphiques avec ggplot2 sous R :
+
+- comprendre le principe de ggplot
+- mettre en forme ses tableaux de données ('ggplot-friendly')
+- explorer les graphiques de base (point, line, boxplot, barplot, ...)
+- manipuler les échelles et les aspects visuels
+- etc
+
+<br/>
+
+#### Formation CIMENT
+
+Apprendre à utiliser les ressources de calcul de [`Gricad`](https://gricad.univ-grenoble-alpes.fr/) :
+
+- principes des jobs (parallèles) sur une machine de calcul
+- se connecter aux clusters (terminal, [`WinScp`](https://winscp.net/), [`PuTTY`](https://www.putty.org/))
+- configurer sa session (installation de modules, packages R)
+- lancer des jobs OAR (actif, passif)
+- etc
+
+<br/>
+
+#### Introduction aux Bases de Données Relationnelles
+
+a.k.a "*Non mec, ton fichier excel c'est pas une base de données !*"
+
+Ceci n'est pas un TD, mais une présentation :
+
+- principe d'une base de données relationnelle (notions fondamentales : clé primaire, clé étrangère, ...)
+- requêtes SQL
+- interfaçage avec R
+
+<br/><br/>
+
+
+## [Documentation - Archives]()
+
+
+- [RLeca](http://rleca.pbworks.com/) :
+
+      - scripts R
+      - documentation pour modèles mixtes, analyses multivariées, SIG...
+      - tutoriels UNIX, OBITOOLS, CIMENT, LaTeX
+      
+- [Documentation utilisateur GriCAD](https://gricad-doc.univ-grenoble-alpes.fr/) : pour les différents services fournis par l'UMS :
+
+      - GitLAB : forge logicielle
+      - NOVA : machines virtuelles OpenStack
+      - CIMENT : calcul intensif
+      - Jupyter notebook
+      
+- [LECA Androsace](https://androsace.ujf-grenoble.fr/) : traits fonctionnels des plantes alpines
+- [LECA Geonetwork](http://leca-bdgis.u-ga.fr/geonetwork/srv/fre/catalog.search#/home) : portail de métadonnées
+- [LECA ORCHAMP](https://orchamp.osug.fr/home) : Observatoire spatio-temporel de la biodiversité et du fonctionnement des socio-écosystèmes de montagne
+
+- [LSD](https://gricad-gitlab.univ-grenoble-alpes.fr/leca/pastis/lsd) : LECA Script Directory (identifiants AGALAN)
+
+- [OBITools3](https://git.metabarcoding.org/obitools/obitools3) : package for the management of analyses and data in DNA metabarcoding
+
+<br/>
+
+#### Archives newsletters
+
++ [5 - Novembre 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_5_2019-11.html) : CR journée utilisateurs Gricad (nouvelles machines, ComUt, outils & astuces)
++ [4 - Avril 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_4_2019-04.html) : LECA Script Directory (LSD), supercalculateur GENCI
++ [3 - Février 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_3_2019-02.html) : supports pour les formations R-SIG, UNIX et CIMENT
++ [2 - Janvier 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_2_2019-01.html) : annonces des formations R-SIG, UNIX et CIMENT
++ [1 - Décembre 2018](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_1_2018-12.html) : Gricad-Gitlab, JupyterHub UGA
+
+<br/><br/>
+
+
+<footer>*Rédigé par Maya Guéguen, le 4 février 2020*</footer>
+
+<br/><br/>
