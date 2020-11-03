@@ -141,11 +141,11 @@ Ceci n'est pas un TD, mais une présentation :
 
 #### Archives newsletters
 
-+ [5 - Novembre 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_5_2019-11.html) : CR journée utilisateurs Gricad (nouvelles machines, ComUt, outils & astuces)
-+ [4 - Avril 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_4_2019-04.html) : LECA Script Directory (LSD), supercalculateur GENCI
-+ [3 - Février 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_3_2019-02.html) : supports pour les formations R-SIG, UNIX et CIMENT
-+ [2 - Janvier 2019](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_2_2019-01.html) : annonces des formations R-SIG, UNIX et CIMENT
-+ [1 - Décembre 2018](https://mayagueguen.github.io/newsletters/NEWSLETTER_LECA_1_2018-12.html) : Gricad-Gitlab, JupyterHub UGA
++ [5 - Novembre 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_5_2019-11.html) : CR journée utilisateurs Gricad (nouvelles machines, ComUt, outils & astuces)
++ [4 - Avril 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_4_2019-04.html) : LECA Script Directory (LSD), supercalculateur GENCI
++ [3 - Février 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_3_2019-02.html) : supports pour les formations R-SIG, UNIX et CIMENT
++ [2 - Janvier 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_2_2019-01.html) : annonces des formations R-SIG, UNIX et CIMENT
++ [1 - Décembre 2018](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_1_2018-12.html) : Gricad-Gitlab, JupyterHub UGA
 
 <br/><br/>
 

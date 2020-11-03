@@ -1,11 +1,52 @@
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+</style>
+
 <br/>
 
-<header style = "font-family: 'Londrina Solid', cursive; font-weight: 300;
-   font-size: 50px; line-height: 1.1; background-color: #d8d5d5;
-   padding: 10px; margin-bottom: 50px; border-radius: 3px; color: #50555e;>
-   Newsletter Pastis<img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/>
- </header>
+<header>Newsletter Pastis<img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
 
 <div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
 <br/>
+
+
+#### Archives newsletters
+
++ [7 - Juillet 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_7_2020-07.html) : licences ArcGIS, LECA Script Directory (LSD), connexion aux bases de données, compte-rendu COMUT GRICAD
++ [6 - Février 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_6_2020-02.html) : annonces des formations R-ggplot2, CIMENT et BDD relationnelles
++ [5 - Novembre 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_5_2019-11.html) : CR journée utilisateurs Gricad (nouvelles machines, ComUt, outils & astuces)
++ [4 - Avril 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_4_2019-04.html) : LECA Script Directory (LSD), supercalculateur GENCI
++ [3 - Février 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_3_2019-02.html) : supports pour les formations R-SIG, UNIX et CIMENT
++ [2 - Janvier 2019](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_2_2019-01.html) : annonces des formations R-SIG, UNIX et CIMENT
++ [1 - Décembre 2018](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_1_2018-12.html) : Gricad-Gitlab, JupyterHub UGA
+
+
+
+<br/><br/>
+
+<footer>*Team PASTIS, Laboratoire d'Ecologie Alpine*</footer>
+
+<br/><br/>
