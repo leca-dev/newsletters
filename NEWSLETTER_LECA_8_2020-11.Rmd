@@ -69,7 +69,12 @@ footer {
 
 ## [Zoom sur...]()
 
-<div style="text-align:center;">**L'Atlas des plantes en coussin**
+</br>
+
+<div style="text-align:center;">
+**L'Atlas des plantes en coussin**
+
+</br>
 
 L'atlas des plantes en coussins est un travail associé à la publication de 2014, 
 
@@ -80,6 +85,8 @@ Le premier confinement a été l'occasion de prendre le temps de travailler sur 
 
 Le résultat de ce travail est visible à cette adresse: https://cushionplants.osug.fr/home
 </diV>
+
+</br>
 
 <div style="text-align:right;">*Julien Renaud*</div>
 

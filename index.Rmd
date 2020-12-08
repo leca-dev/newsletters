@@ -35,6 +35,7 @@ footer {
 
 #### Archives newsletters
 
++ [9 - Décembre 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_9_2020-12.html) : fonctions fétiches de PASTIS sous `R`, package `metabaR`
 + [8 - Novembre 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_8_2020-11.html) : `leca-dev`, atlas plantes en coussin, CR JUG (Perseus, Cellule data stewardship, 'stockage')
 + [7 - Juillet 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_7_2020-07.html) : licences ArcGIS, `LECA Script Directory` (LSD), connexion aux bases de données, CR COMUT GRICAD
 + [6 - Février 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_6_2020-02.html) : annonces des formations R-ggplot2, CIMENT et BDD relationnelles
