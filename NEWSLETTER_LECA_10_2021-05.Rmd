@@ -130,7 +130,7 @@ footer {
       - liens vers de la documentation en ligne (R, SIG, best coding practices...)
       - tutoriels
       
-- [LECA Androsace](https://androsace.osug.fr/) : BDD traits fonctionnels des plantes alpines
+- [LECA Androsace](http://originalps.osug.fr) : BDD traits fonctionnels des plantes alpines
 - [LECA Geonetwork](http://leca-bdgis.u-ga.fr/geonetwork/srv/fre/catalog.search#/home) : portail de métadonnées
 - [LECA ORCHAMP](https://orchamp.osug.fr/) : Observatoire spatio-temporel de la biodiversité et du fonctionnement des socio-écosystèmes de montagne
 
