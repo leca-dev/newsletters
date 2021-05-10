@@ -1,0 +1,154 @@
+---
+output:
+  html_document:
+    number_sections: no
+    toc: no
+  # pdf_document:
+  #   toc: no
+  #   fig_caption: true
+---
+
+<br/><br/>
+
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+```
+
+<header>Newsletter Pastis - Mai 2021 <img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
+
+<div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
+<br/>
+
+
+#### Petites news :
+
+- **Recensement de tutoriels GRICAD faits par les labos** : 
+    - [LECA](http://rleca.pbworks.com/w/page/91494804/CIMENT%20tutorials) (mis à jour + tutorial pour CiGRI)
+    - [IAB](https://iab-env-epi.gricad-pages.univ-grenoble-alpes.fr/ciment-user-guide/)
+    - [SCALDE](https://scalde.gricad-pages.univ-grenoble-alpes.fr/web/category//tutoriels.html#doc-tutos)
+- **Les nouvelles équipes & axes transversaux du LECA sont sur le [site web](https://leca.osug.fr/-Equipes-themes-transversaux-) !**
+    - n'hésitez pas à aller jeter un oeil et à faire remonter vos remarques à vos chefs d'équipe !
+    - *la version anglaise sera mise en ligne dès validation finale de la version française*
+
+</br></br>
+
+
+## [Compte-rendu Comité Utilisateurs GRICAD (ComUt)]()
+
+*28 avril 2021*
+
+<br/>
+
+**[MaiMoSiNE](https://www.maimosine.fr/) :**
+
+- questionnaire de recensement des besoins à remplir en formation jusqu'à mi juin [ICI](https://framaforms.org/recensement-des-besoins-en-formation-des-personnels-permanents-et-non-permanents-1607413022)
+- [réseau national d'ingénieurs pour l'IA](https://www.inria.fr/fr/la-mission-ia-un-programme-national-de-recherche-en-intelligence-artificielle) (intelligence artificielle), notamment avec [MIAI](https://miai.univ-grenoble-alpes.fr/) à Grenoble
+
+<br/>
+
+**Arrivée d'une nouvelle interface pour [PERSEUS](https://perseus.ujf-grenoble.fr/) :**
+
+- plus ergonomique
+- plus pratique et mieux adaptée pour les responsable de projets et le suivi dans le temps
+- passage aux identifiants AGALAN pour une uniformisation des services au niveau de l'université  
+(migration des anciens noms de compte (par ex. `mayagueguen`) aux identifiants AGALAN (par ex. `gueguema`))
+
+<br/>
+
+
+**Petit point sur les outils :**
+
+- [PERSEUS NG](https://perseus.univ-grenoble-alpes.fr/) : nouvelle interface opérationnelle <br/> (*identifiants AGALAN, accès à la documentation, meilleur suivi des projets, COMING SOON : accès à NOVA*)
+- **Data Management Plan (DMP)** : demandé lors de la création d'un projet, ne conditionne pas la validation des projets mais permet de sensibiliser à la gestion des données (*quantité, documentation, stockage...*)
+
+- `FROGGY` &emsp;&emsp;&emsp;&emsp;&emsp; = fin de vie paisible
+- `DAHU` &emsp;&emsp;&emsp;&emsp;&emsp; + 450 core CPP + 1 fat node (1 To) + 3 nodes GPU
+- `LUKE` &emsp;&emsp;&emsp;&emsp;&emsp; = hétérogène, noeuds d'équipes sous utilisés MAIS chronophages à maintenir + volumineux à stocker <br/> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **=> - moins de financements acceptés, DAHU sera favorisé**
+
+- `iRods / Mantis` &emsp; = stockage CLOUD, orienté GRILLE CiGri
+- `Mantis-2` &emsp;&emsp;&emsp;&emsp; = évolution de iRods (*750 To, extensible*)
+
+- `bettik` &emsp;&emsp;&emsp;&emsp;&emsp; = *faux* SCRATCH (*1,3 Po remplis à 94%*)
+- `silenus` &emsp;&emsp;&emsp;&emsp; = **nouveau *vrai* SCRATCH DAHU** (*70 To, meilleure performance que `bettik` pour traiter beaucoup de petits fichiers*)
+
+*Pour rappel, un scratch est un espace qui n'est PAS sauvegardé ; <br/>un 'vrai' scratch est un espace où les données ne restent que le temps des jobs et sont ensuite déplacées.*
+
+=> [Formation stockage le 25 mai 2021 !!](https://gricad.univ-grenoble-alpes.fr/actualites.html)
+
+<br/>
+
+**Cycle de vie des données / Réflexion sur une politique de gestion / nettoyage automatique :**
+
+- nettoyage automatique sur `silenus `(vrai scratch) ?
+- mise en place de quotas informatifs (*mail d'alerte quand les quotas sont atteints*) ?
+- délai de grâce d'1 an pour renouvellement / récupération et nettoyage après péremption d'un compte / projet (*après quoi les informations sont définitivement supprimées*) ?
+
+<br/>
+
+**[NEW GRICAD DASHBOARD](https://gricad-dashboards.univ-grenoble-alpes.fr) : visualisez les statistiques de chaque cluster / projet / utilisateur !!**
+
+<br/><br/>
+<br/><br/>
+
+
+## [Documentation - Archives]()
+
+
+- [RLeca](http://rleca.pbworks.com/) :
+
+      - scripts R
+      - tutoriels ggplot2, biomod2...
+      - documentation pour modèles mixtes, analyses multivariées, SIG...
+      - tutoriels UNIX, OBITOOLS, CIMENT, LaTeX
+      
+- [LSD](https://gricad-gitlab.univ-grenoble-alpes.fr/leca/pastis/lsd) : LECA Script Directory (identifiants AGALAN)
+
+      - script R, python... pour extraction et analyse de données, traitement de séquences ADN, etc
+      - liens vers de la documentation en ligne (R, SIG, best coding practices...)
+      - tutoriels
+      
+- [LECA Androsace](https://androsace.osug.fr/) : BDD traits fonctionnels des plantes alpines
+- [LECA Geonetwork](http://leca-bdgis.u-ga.fr/geonetwork/srv/fre/catalog.search#/home) : portail de métadonnées
+- [LECA ORCHAMP](https://orchamp.osug.fr/) : Observatoire spatio-temporel de la biodiversité et du fonctionnement des socio-écosystèmes de montagne
+
+- [OBITools3](https://git.metabarcoding.org/obitools/obitools3) : package for the management of analyses and data in DNA metabarcoding
+
+- [Documentation utilisateur GriCAD](https://gricad-doc.univ-grenoble-alpes.fr/) : pour les différents services fournis par l'UMS :
+
+      - GitLAB : forge logicielle
+      - NOVA : machines virtuelles OpenStack
+      - CIMENT : calcul intensif
+      - Jupyter notebook
+
+<br/>
+
+#### [Archives newsletters](https://leca-dev.github.io/newsletters/)
+
+<br/><br/>
+
+<footer>*Rédigé par Maya Guéguen, le 10 mai 2021*</footer>
+
+<br/><br/>
