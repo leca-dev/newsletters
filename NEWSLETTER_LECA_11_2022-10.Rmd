@@ -1,0 +1,207 @@
+---
+output:
+  html_document:
+    number_sections: no
+    toc: no
+---
+
+<br/><br/>
+
+
+```{css, echo=FALSE}
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid:200,300|Medula+One');
+header {
+   font-family: 'Londrina Solid', cursive;
+   font-weight: 300;
+   font-size: 50px;
+   line-height: 1.1;
+   background-color: #d8d5d5;
+   padding: 10px;
+   margin-bottom: 50px;
+   border-radius: 3px;
+   color: #50555e;
+}
+h2 {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+}
+footer {
+   background-color: #d8d5d5;
+   padding: 10px;
+   border-radius: 3px;
+   text-align: right;
+}
+```
+
+<header>Newsletter Pastis - Octobre 2022 <img src="images/leca-logo_image_2.jpg" alt="logo" width="60px" align="right"/></header>
+
+<div style="text-align:right;">*En [bleu](), liens cliquables !*</div>
+<br/>
+
+
+<div style="text-align:center;">
+**Long time no see !**
+
+*PASTIS s'excuse pour le manque de nouvelles, et va tâcher de relancer la machine !*
+</div>
+
+
+
+#### Petites news :
+
+- [CR de la réunion OSUG-données](https://cloud.univ-grenoble-alpes.fr/s/xG6S6iPHS72ardr) (16 septembre 2022)
+- **coming soon :** petites sessions de formation :)
+    
+    - proposer des petites formations genre d'1h
+    - auxquelles les personnes intéressées s'inscrivent
+    - et qui ont lieu si plusieurs personnes intéressées
+    
+    ==> merci de remplir [ce petit fichier](https://cloud.univ-grenoble-alpes.fr/s/LTPc5paGRDLXtr5) pour vos besoins en formation dont PASTIS pourrait se charger ! <br/>
+    ==> plus d'informations à venir
+
+
+</br></br>
+
+
+## [Migration K: SUMMER]()
+
+La migration des données stockées sur K: vers SUMMER a été finalisée début septembre. <br/>
+*Merci à Rémi Cailletaud, Daniel Kolokosso et tous ceux qui ont fait du ménage !*
+
+Le lecteur **K:** est encore accessible **mais en lecture seule**. <br/>
+Vous pouvez d'ores et déjà configurer votre ordinateur pour se connecter à **SUMMER** et avoir accès au nouvel emplacement des dossiers. <br/>
+*Pour rappel, chaque dossier racine est géré par un ou plusieurs administrateurs, qui donnent les droits d'accès aux dossiers.* <br/>
+*Si vous souhaitez avoir accès à un dossier spécifique, vous pouvez vous adresser à l'une des personnes administratices du dossier concerné !*
+
+<br/>
+
+- **Configurer votre connexion vers SUMMER** depuis votre ordinateur :
+    - [Wiki en ligne (identifiants AGALAN)](https://wiki-leca.osug.fr/doku.php?id=informatique:summer)
+- Procédures UGA pour **gérer les droits d'accès** et administrer ses dossiers :
+    - [Fichier PDF d'aide](https://services-numeriques-personnels.univ-grenoble-alpes.fr/medias/fichier/gestion-espace-partage_1647266131184-pdf?ID_FICHE=21042&INLINE=FALSE)
+    - [Vidéo d'aide en ligne](https://ressources-si.univ-grenoble-alpes.fr/espaces_partages/story_html5.html)
+    
+*Voici une liste (potentiellement non-exhaustive) des personnes responsables des différents dossiers :*
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+```
+ADMINISTRATION: Sagnimorte
+INFORMATIQUE: Lontin
+    
+EQUIPE-BIOM
+    /BIOGEOCHEM: Choler / Saillard
+    /IMAGERY: Choler / Renaud
+    /SERVALP: Lavorel / Colace / Grigulis
+    /PROJETS
+EQUIPE-MEEBIO
+    /MOUSTIQUE: David
+    /PAPILLONS: Després
+    /PROJETS
+```
+:::
+::: {.column width="50%"}
+
+```
+AXE-BEEFY: Gallien / Ibanez
+AXE-RAMDAM: Choler
+AXE-COMICS: Boyer
+
+PLATEAU-AEEM: Arnoldi / Boucher
+PLATEAU-ANABM: Yannic
+PLATEAU-ECOCHIM: Gallet
+PLATEAU-EET: Lavorel / Colace
+PLATEAU-EXAM: Reynaud / Veyrenc
+PLATEAU-INSECT: David
+PLATEAU-MEMOBIO: David
+PLATEAU-PASTIS: Renaud / Guéguen
+```
+:::
+::::::::::::::
+
+<br/>
+
+**Concernant la sauvegarde :**
+
+- actuellement, les dossiers de sauvegarde personnelle ont été déplacés dans le dossier `ARCHIVE`
+- il n'y a **PAS** de nouvel emplacement sur SUMMER prévu pour l'instant à cet effet
+- **l'OSUG met à notre disposition un nouvel outil** pour effectuer la sauvegarde de nos machines :
+    - [backup.osug.fr](https://backup.osug.fr/) (identifiants AGALAN)
+    - il marche préférentiellement sous Firefox
+    - dans *Sauvegarde*, vous pouvez définir le *Chemin sauvegardé* et les *Chemins exclus* pour ignorer des dossiers
+    - le quota par personne est fixé à **200 Giga**
+
+
+<br/>
+
+
+## [Site web : pages personnelles]()
+
+<div style="text-align:center;">
+**Good news !** <br/>
+Pour ceux qui le souhaitent, il va être possible de nouveau <br/>
+d'avoir une **page personnelle de présentation** <br/>
+définie et stockée sur le site web du LECA !
+</div>
+
+L'idée est de faire quelque chose [dans ce genre là](https://leca.osug.fr/-GUEGUEN-Maya-).
+
+Les vignettes de la page [Qui sommes nous ?](https://leca.osug.fr/-Chercheurs-Enseignants-) permettront de rediriger chaque personne vers ce listing de pages personnelles.
+
+*Par souci de clareté et d'homogénéisation, nous proposons d'avoir :*
+
+- le petit texte de présentation identique à celui des vignettes
+- une photo ou non, si la personne le souhaite
+- un résumé des différents liens (site web, Research Gate, Orcid, Twitter...)
+- 3 blocs descriptifs :
+    - Curriculum Vitae
+    - Recherche / Travaux
+    - Publications
+
+**==> Vous pouvez envoyer vos contenus** par mail à [Maya](maya.gueguen@univ-grenoble-alpes.fr) ! <br/>
+**==> Pour les nouveaux venus qui n'ont pas de vignette**, c'est aussi l'occasion d'envoyer vos informations pour apparaître sur le site web !
+
+<br/><br/>
+<br/><br/>
+
+
+## [Documentation - Archives]()
+
+
+- [RLeca](http://rleca.pbworks.com/) :
+
+      - scripts R
+      - tutoriels ggplot2, biomod2...
+      - documentation pour modèles mixtes, analyses multivariées, SIG...
+      - tutoriels UNIX, OBITOOLS, CIMENT, LaTeX
+      
+- [LSD](https://gricad-gitlab.univ-grenoble-alpes.fr/leca/pastis/lsd) : LECA Script Directory (identifiants AGALAN)
+
+      - script R, python... pour extraction et analyse de données, traitement de séquences ADN, etc
+      - liens vers de la documentation en ligne (R, SIG, best coding practices...)
+      - tutoriels
+      
+- [LECA Androsace](http://originalps.osug.fr) : BDD traits fonctionnels des plantes alpines
+- ~~[LECA Geonetwork](http://leca-bdgis.u-ga.fr/geonetwork/srv/fre/catalog.search#/home) : portail de métadonnées~~ (/!\ en rémission de ses blessures /!\)
+- [LECA ORCHAMP](https://orchamp.osug.fr/) : Observatoire spatio-temporel de la biodiversité et du fonctionnement des socio-écosystèmes de montagne
+
+- [OBITools3](https://git.metabarcoding.org/obitools/obitools3) : package for the management of analyses and data in DNA metabarcoding
+
+- [Documentation utilisateur GriCAD](https://gricad-doc.univ-grenoble-alpes.fr/) : pour les différents services fournis par l'UMS :
+
+      - GitLAB : forge logicielle
+      - NOVA : machines virtuelles OpenStack
+      - CIMENT : calcul intensif
+      - Jupyter notebook
+
+<br/>
+
+#### [Archives newsletters](https://leca-dev.github.io/newsletters/)
+
+<br/><br/>
+
+<footer>*Rédigé par Maya Guéguen, le 7 octobre 2022*</footer>
+
+<br/><br/>

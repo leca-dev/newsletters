@@ -36,6 +36,7 @@ footer {
 #### Archives newsletters
 
 
++ [11 - Octobre 2022](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_11_2022-10.html) : CR OSUG-données, passage à SUMMER, pages web des personnels
 + [10 - Mai 2021](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_10_2021-05.html) : tutoriels CIMENT, CR ComUt (MaiMoSiNE, 'stockage', cycle de vie des données)
 + [9 - Décembre 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_9_2020-12.html) : fonctions fétiches de PASTIS sous `R`, package `metabaR`
 + [8 - Novembre 2020](https://leca-dev.github.io/newsletters/NEWSLETTER_LECA_8_2020-11.html) : `leca-dev`, atlas plantes en coussin, CR JUG (Perseus, Cellule data stewardship, 'stockage')
