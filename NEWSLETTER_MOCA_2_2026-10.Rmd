@@ -113,19 +113,21 @@ Pour rappel, sont disponibles à tous :
 
 <br/> 
 
+- `bettik` n'est PAS un espace sauvegardé, donc si le disque dur contenant vos données crâme, c'est disparu pour toujours.
+- **Mantis** est un espace de stockage **dont une partie** est sauvegardée, à condition de bien diriger ses données vers cette partie *backup*
+- L'accès à Mantis se fait 
+    - soit via [lignes de commandes iRODS](https://gricad-doc.univ-grenoble-alpes.fr/hpc/data_management/mantis/) à installer via un package NIX
+    - soit via l'interface web [Metalnx](https://mantis.univ-grenoble-alpes.fr/metalnx/)
+    
 - Pour rappel, lorsque vous voulez **transférer des fichiers volumineux** (uploader ou télécharger), vous devez passer par **Cargo**. Vous vous connectez à Cargo comme vous vous connecteriez à un cluster (Dahu, Luke, etc), et vous arrivez par défaut dans votre *home* Dahu, mais **tous les espaces du cluster peuvent être accédés depuis ce point** ! Voici les chemins :
     - Dahu : `/home/monidAGALAN/`
     - Bigfoot : `/home-bigfoot/monidAGALAN/`
     - Luke : `/home-luke/monidAGALAN/`
     - Kraken : `/home-kraken-cpu/monidAGALAN/` ou `/home-kraken-gpu/monidAGALAN/`
-    - Stockages / Scratch : `/bettik/`, `/silenus/` ou `/summer/`
+    - Stockages / Scratch : `/bettik/`, `/silenus/`, `hoyt` ou `/summer/`
     - Mantis : via commandes iRODS
-
-- bettik n'est PAS un espace sauvegardé, donc si le disque dur contenant vos données crâme, c'est disparu pour toujours.
-- **Mantis** est un espace de stockage **dont une partie** est sauvegardée, à condition de bien diriger ses données vers cette partie *backup*
-- L'accès à Mantis se fait 
-    - soit via [lignes de commandes iRODS](https://gricad-doc.univ-grenoble-alpes.fr/hpc/data_management/mantis/) à installer via un package NIX
-    - soit via l'interface web [Metalnx](https://mantis.univ-grenoble-alpes.fr/metalnx/)
+    
+- `/silenus/` (Dahu et Bigfoot) et `hoyt` (Kraken) en revanche sont des vrais **scratch**, c'est à dire que ce sont des dossiers dans lesquels vous pouvez mettre vos données pour vos calculs, et écrire les résultats. Ce sont des espaces optimisés pour la lecture et l'écriture des fichiers.  Mais **scratch** signifie que c'est **temporaire** et que tout fichier vieux de 30 jours sera automatiquement effacé !
     
     
 *N'hésitez pas si vous avez besoin d'aide pour effectuer ces transferts !*
@@ -192,7 +194,7 @@ Et plusieurs scripts sont partagés dans le sous-dossier `PASTIS/LSD/`
 
 *Gérés par Julien :*
 
-- Le [dataverse LECA usr data.InDoRES](https://data.indores.fr/dataverse/LECA) permet de partager vos données et codes (similaire à Zenodo par exemple).
+- Le [dataverse LECA usr data.InDoRES](https://data.indores.fr/dataverse/LECA) permet de partager vos données (similaire à Zenodo mais recommandé pour les données de biodiversité, avec l'avantage d'être moissonné par les portails nationaux comme le [PNDB](https://www.pndb.fr/)).
 - Le [catalogue cat.InDoRES](https://cat.indores.fr/geonetwork/srv/eng/catalog.search) recueille les métadonnées de tous vos dépots et ressources en ligne.
 
 *Gérés pas par MOCA :*

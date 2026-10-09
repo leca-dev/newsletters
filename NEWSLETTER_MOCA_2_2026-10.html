@@ -483,6 +483,18 @@ direct de vos dossiers les + surchargés</li>
 </ul>
 <p><br /></p>
 <ul>
+<li><code>bettik</code> n’est PAS un espace sauvegardé, donc si le
+disque dur contenant vos données crâme, c’est disparu pour
+toujours.</li>
+<li><strong>Mantis</strong> est un espace de stockage <strong>dont une
+partie</strong> est sauvegardée, à condition de bien diriger ses données
+vers cette partie <em>backup</em></li>
+<li>L’accès à Mantis se fait
+<ul>
+<li>soit via <a href="https://gricad-doc.univ-grenoble-alpes.fr/hpc/data_management/mantis/">lignes
+de commandes iRODS</a> à installer via un package NIX</li>
+<li>soit via l’interface web <a href="https://mantis.univ-grenoble-alpes.fr/metalnx/">Metalnx</a></li>
+</ul></li>
 <li>Pour rappel, lorsque vous voulez <strong>transférer des fichiers
 volumineux</strong> (uploader ou télécharger), vous devez passer par
 <strong>Cargo</strong>. Vous vous connectez à Cargo comme vous vous
@@ -495,21 +507,17 @@ peuvent être accédés depuis ce point</strong> ! Voici les chemins :
 <li>Luke : <code>/home-luke/monidAGALAN/</code></li>
 <li>Kraken : <code>/home-kraken-cpu/monidAGALAN/</code> ou
 <code>/home-kraken-gpu/monidAGALAN/</code></li>
-<li>Stockages / Scratch : <code>/bettik/</code>, <code>/silenus/</code>
-ou <code>/summer/</code></li>
+<li>Stockages / Scratch : <code>/bettik/</code>, <code>/silenus/</code>,
+<code>hoyt</code> ou <code>/summer/</code></li>
 <li>Mantis : via commandes iRODS</li>
 </ul></li>
-<li>bettik n’est PAS un espace sauvegardé, donc si le disque dur
-contenant vos données crâme, c’est disparu pour toujours.</li>
-<li><strong>Mantis</strong> est un espace de stockage <strong>dont une
-partie</strong> est sauvegardée, à condition de bien diriger ses données
-vers cette partie <em>backup</em></li>
-<li>L’accès à Mantis se fait
-<ul>
-<li>soit via <a href="https://gricad-doc.univ-grenoble-alpes.fr/hpc/data_management/mantis/">lignes
-de commandes iRODS</a> à installer via un package NIX</li>
-<li>soit via l’interface web <a href="https://mantis.univ-grenoble-alpes.fr/metalnx/">Metalnx</a></li>
-</ul></li>
+<li><code>/silenus/</code> (Dahu et Bigfoot) et <code>hoyt</code>
+(Kraken) en revanche sont des vrais <strong>scratch</strong>, c’est à
+dire que ce sont des dossiers dans lesquels vous pouvez mettre vos
+données pour vos calculs, et écrire les résultats. Ce sont des espaces
+optimisés pour la lecture et l’écriture des fichiers. Mais
+<strong>scratch</strong> signifie que c’est <strong>temporaire</strong>
+et que tout fichier vieux de 30 jours sera automatiquement effacé !</li>
 </ul>
 <p><em>N’hésitez pas si vous avez besoin d’aide pour effectuer ces
 transferts !</em></p>
@@ -600,8 +608,9 @@ descriptions de packages / softwares.</li>
 <p><em>Gérés par Julien :</em></p>
 <ul>
 <li>Le <a href="https://data.indores.fr/dataverse/LECA">dataverse LECA
-usr data.InDoRES</a> permet de partager vos données et codes (similaire
-à Zenodo par exemple).</li>
+usr data.InDoRES</a> permet de partager vos données (similaire à Zenodo
+mais recommandé pour les données de biodiversité, avec l’avantage d’être
+moissonné par les portails nationaux comme le <a href="https://www.pndb.fr/">PNDB</a>).</li>
 <li>Le <a href="https://cat.indores.fr/geonetwork/srv/eng/catalog.search">catalogue
 cat.InDoRES</a> recueille les métadonnées de tous vos dépots et
 ressources en ligne.</li>
