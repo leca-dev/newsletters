@@ -42,6 +42,7 @@ Newsletter MOCA
 
 #### Archives newsletters
 
++ [2 - Octobre 2026](https://leca-dev.github.io/newsletters/NEWSLETTER_MOCA_2_2026-10.html) : HAL, CR OSUG-GRICAD, bettik, gérer vos données / codes
 + [1 - Juin 2026](https://leca-dev.github.io/newsletters/NEWSLETTER_MOCA_1_2026-06.html) : MAJ de CIMENT, gérer vos données / codes
 
 
