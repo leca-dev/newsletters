@@ -194,7 +194,7 @@ Et plusieurs scripts sont partagés dans le sous-dossier `PASTIS/LSD/`
 
 *Gérés par Julien :*
 
-- Le [dataverse LECA usr data.InDoRES](https://data.indores.fr/dataverse/LECA) permet de partager vos données (similaire à Zenodo mais recommandé pour les données de biodiversité, avec l'avantage d'être moissonné par les portails nationaux comme le [PNDB](https://www.pndb.fr/)).
+- Le [dataverse LECA usr data.InDoRES](https://data.indores.fr/dataverse/LECA) est un entrepôt qui permet de partager vos données (similaire à Zenodo mais recommandé pour les données de biodiversité, avec l'avantage d'être moissonné par les portails nationaux comme le [PNDB](https://www.pndb.fr/)).
 - Le [catalogue cat.InDoRES](https://cat.indores.fr/geonetwork/srv/eng/catalog.search) recueille les métadonnées de tous vos dépots et ressources en ligne.
 
 *Gérés pas par MOCA :*
